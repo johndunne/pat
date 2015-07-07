@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/gorilla/context"
-	"github.com/gorilla/mux"
+	"github.com/johndunne/mux"
 )
 
 // New returns a new router.
