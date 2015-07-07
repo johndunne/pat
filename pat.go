@@ -41,7 +41,7 @@ func (r *Router) Get(pat string, h http.HandlerFunc) *mux.Route {
 	return r.Add("GET", pat, h)
 }
 
-func (r *Router) ListAllNamedRoutes() map[string]string {
+func (r *Router) ListRoutesNamedRoutes() map[string]string {
 	return r.ListAllNamedRoutes()
 }
 
