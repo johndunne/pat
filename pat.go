@@ -42,7 +42,7 @@ func (r *Router) Get(pat string, h http.HandlerFunc) *mux.Route {
 }
 
 func (r *Router) ListRoutesNamedRoutes() map[string]string {
-	return r.ListAllNamedRoutes()
+	return r.ListNamedRoutes()
 }
 
 // Post registers a pattern with a handler for POST requests.
